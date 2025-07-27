@@ -10,7 +10,7 @@ const Soaps = () => {
             <h1 className='font-bold text-2xl  pt-10 mb-6 pb-2 text-green-700 border-b border-green-200 w-full'>Soaps</h1>
         </div>
 
-        <div className='w-[95%] flex justify-bewteen gap-[15px]'>
+        <div className='w-[95%] flex justify-center gap-[15px] max-md:flex-col max-md:items-center '>
             <SoapCard />
             <Soapcard2/>
             <Soapcard2/>

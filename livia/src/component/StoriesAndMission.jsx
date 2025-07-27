@@ -2,16 +2,16 @@ import React from 'react'
 
 const StoriesAndMission = () => {
   return (
-    <div className='flex flex-row m-20 gap-10'>
+    <div className='flex flex-row gap-10 px-4 my-8 max-lg:flex-col w-full'>
 
       <div>
 
-        <img src="\logo-CjbUGg3i.jpg" alt="" className='h-[500px] w-[600px] rounded-xl' />
+        <img src="\logo-CjbUGg3i.jpg" alt="" className='h-[500px] md:w-[600px] rounded-xl' />
 
       </div>
 
 
-      <div className='w-[70%]  flex flex-col gap-10'>
+      <div className='lg:w-[70%]  flex flex-col gap-10'>
 
         <h1 className='font-semibold text-4xl text-gray-800'>Our Story & Mission</h1>
 

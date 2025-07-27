@@ -6,7 +6,7 @@ import { FaTruckFast } from "react-icons/fa6";
 
 const Testimonial = () => {
   return (
-    <div className='w-full h-[300px] bg-gray-100 mb-15 flex flex-row items-center justify-evenly'>
+    <div className='w-full p-4 bg-gray-100 mb-15 flex flex-row items-center justify-evenly flex-wrap gap-10'>
 
 
         <div className='w-[350px] h-[200px] flex flex-col justify-center items-center px-5 border-[0.2px] border-zinc-200 rounded-lg bg-white text-center shadow-xl'>

@@ -6,7 +6,7 @@ const SoapCard = () => {
   return (
 
     
-    <div className='w-[55%]  flex justify-center items-center p-4 rounded-xl shadow-xl border-[0.2px] border-zinc-200 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg' >
+    <div className='md:w-[55%]  flex justify-center items-center p-4 rounded-xl shadow-xl border-[0.2px] border-zinc-200 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg' >
         
         <div className='w-full flex flex-row gap-[10px] '>
             <img src="\soap-avacoda-LMGO1G64.jpeg" alt="" className='w-[45%]' />

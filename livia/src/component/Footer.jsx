@@ -7,7 +7,7 @@ const Footer = () => {
 
   <div>
     <div className='w-full h-[350px] flex flex-col  pt-20   bg-gray-900 items-center '>
-        <div className='w-[500px] h-[150px] bg-gray-900 flex flex-col items-center text-center text-white border-b border-gray-600 '>
+        <div className='md:w-[500px] h-[150px] bg-gray-900 flex flex-col items-center text-center text-white border-b border-gray-600 '>
             <div>
                 <h1 className='font-bold text-3xl'>Livia</h1>
                 <p>Premium natural skincare products for your daily beauty routine.</p>

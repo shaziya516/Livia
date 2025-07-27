@@ -12,15 +12,15 @@ const Contact = () => {
   return (
     <div>
       <div className="w-full bg-gradient-to-br from-teal-100 to-cyan-200 p-8 flex flex-col items-center">
-        <div className="w-[50%] bg-white flex flex-col items-center pt-10 gap-4 rounded-lg shadow-lg px-6">
-          <h1 className="font-bold text-4xl text-gray-800">Let's Connect</h1>
+        <div className="lg:w-[50%] max-lg:w-[80%] max-sm:w-[95%] bg-white flex flex-col items-center pt-10 gap-4 rounded-lg shadow-lg px-6">
+          <h1 className="font-bold text-4xl text-gray-800 text-center">Let's Connect</h1>
           <p className="text-gray-600 font-medium text-center">
             We're here to help and answer any question you might have.
           </p>
           <div className="w-[100px] border-b-[5px] border-green-600 rounded"></div>
 
-          <form className="flex flex-col w-full gap-10 p-10">
-            <div className="flex flex-col ">
+          <form className="flex flex-col w-full gap-10 py-5 px-4 w-full">
+            <div className="flex flex-col w-full">
               <label>
                 Full Name <span className="text-red-500">*</span>
               </label>
@@ -85,7 +85,7 @@ const Contact = () => {
           </button>
 
           <div>
-            <p className="text-gray-300 font-sm pb-10">
+            <p className="text-gray-300 font-sm pb-10 text-center">
               We typically respond within 24 hours
             </p>
           </div>
